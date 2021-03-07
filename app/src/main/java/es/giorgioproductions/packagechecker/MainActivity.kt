@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         buttonCheck.setOnClickListener {
             val pm: PackageManager = context.packageManager
             if (packageNameEditText.text.trim() != "") {
-                if (isPackageInstalled(packageNameEditText.getText().toString(), pm)) {
+                if (isPackageInstalled(packageNameEditText.text.toString(), pm)) {
                     textCheck.text = getString(R.string.is_installed, packageNameEditText.text.toString())
                 } else {
                     textCheck.text = getString(R.string.is_not_installed, packageNameEditText.text.toString())
