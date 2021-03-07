@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PackageChecker</string>
+    <string name="is_installed">%1$s is installed</string>
+    <string name="is_not_installed">%1$s is not installed</string>
+    <string name="write_a_package_name">Write a package name</string>
+    <string name="check">Check</string>
+    <string name="package_name">App package name</string>
+</resources>

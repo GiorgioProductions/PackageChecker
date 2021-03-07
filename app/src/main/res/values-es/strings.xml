@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PackageChecker</string>
+    <string name="is_installed">%1$s está instalado</string>
+    <string name="is_not_installed">%1$s no está instalado</string>
+    <string name="write_a_package_name">Escribe un nombre de paquete</string>
+    <string name="check">Comprobar</string>
+    <string name="package_name">Nombre de paquete</string>
+</resources>
